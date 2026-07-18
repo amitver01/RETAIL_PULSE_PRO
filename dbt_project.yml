@@ -37,10 +37,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   retail_pulse:
 
-    stg:
-      +schema: STG
-      +materialized: table
-
     lnd:
       +schema: LND
       +materialized: incremental
