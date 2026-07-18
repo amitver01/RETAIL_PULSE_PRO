@@ -36,7 +36,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   retail_pulse:
-
+    
     lnd:
       +schema: LND
       +materialized: incremental
