@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: stg
+    database: RETAILPULSE
+    schema: STG
+
+    tables:
+      - name: CUSTOMERS
