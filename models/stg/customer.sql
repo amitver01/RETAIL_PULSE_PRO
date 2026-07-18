@@ -1,0 +1,9 @@
+SELECT
+    CUSTOMER_ID,
+    CUSTOMER_NAME,
+    EMAIL,
+    CITY,
+    STATE,
+    SIGNUP_DATE,
+    STATUS
+FROM {{ source('stg', 'CUSTOMERS') }}
