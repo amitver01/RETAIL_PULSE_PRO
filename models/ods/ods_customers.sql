@@ -1,2 +1,2 @@
 SELECT *
-FROM {{ ref('lnd_customers') }}
+FROM {{ ref('customers') }}
