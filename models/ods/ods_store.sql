@@ -1,2 +1,2 @@
-select * from
-{{ source('STG' ,'STORES')}}
+select * from 
+{{ source('stg','Stores') }}

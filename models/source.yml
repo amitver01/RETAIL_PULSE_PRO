@@ -8,5 +8,5 @@ sources:
     tables:
       - name: CUSTOMERS
       - name: PRODUCTS
-      - name: STORE
-      
+      - name: STORES
+
