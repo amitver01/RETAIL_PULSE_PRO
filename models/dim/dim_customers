@@ -1,1 +1,9 @@
-
+SELECT
+    ROW_NUMBER() OVER (ORDER BY CUSTOMER_ID) AS CUSTOMER_KEY,
+    CUSTOMER_ID,
+    CUSTOMER_NAME,
+    EMAIL,
+    CITY,
+    STATE,
+    STATUS
+FROM {{ ref('ods_customers') }}
