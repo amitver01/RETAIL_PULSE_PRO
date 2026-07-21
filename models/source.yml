@@ -9,4 +9,8 @@ sources:
       - name: CUSTOMERS
       - name: PRODUCTS
       - name: STORES
+      - name: ORDERS
+
+      - name: ORDER_ITEMS
+
 
